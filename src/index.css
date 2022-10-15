@@ -2,6 +2,29 @@
   box-sizing: border-box;
 }
 
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --dark-blue: hsl(212, 21%, 14%);
+  --grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  font: 500 14px 'Montserrat', sans-serif;
+}
+
 body {
   margin: 0;
 }
+
+/* 
+## Layout
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Typography
+
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
