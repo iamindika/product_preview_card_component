@@ -16,6 +16,9 @@ body {
   margin: 0;
 }
 
+main {
+  padding: 28px 16px;
+}
 /* 
 ## Layout
 
