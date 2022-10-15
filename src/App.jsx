@@ -1,7 +1,9 @@
+import data from "./db/data";
+
 function App() {
   return (
     <div>
-      Product Preview Card Component
+      {JSON.stringify(data, null, 2)}
     </div>
   )
 }
