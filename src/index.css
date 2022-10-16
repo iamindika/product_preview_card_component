@@ -22,6 +22,8 @@ body {
 }
 
 .product-list-title {
+  margin: 0;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -68,6 +70,7 @@ body {
 }
 
 .product-list-items {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
