@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/iamindika/product_preview_card_component)
-- Live Site URL: [Netlify](https://634b7ddb01ec292c70f840bc--endearing-chebakia-36f360.netlify.app/)
+- Live Site URL: [Netlify](https://endearing-chebakia-36f360.netlify.app)
 
 ## My process
 
