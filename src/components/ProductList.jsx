@@ -3,14 +3,18 @@ import PropTypes from 'prop-types';
 
 const ProductList = (props) => {
   return (
-    <section className="product-list">
-      {props.inventory.map((product) => (
-        <Product 
-          key={product.id}
-          {...product}
-        />
-      ))}
-    </section>
+    <main className="product-list">
+      <h1 className="product-list-title">Popular Perfume</h1>
+
+      <div className="product-list-items">
+        {props.inventory.map((product) => (
+          <Product 
+            key={product.id}
+            {...product}
+          />
+        ))}
+      </div>
+    </main>
   )
 }
 
