@@ -35,7 +35,7 @@ const Product = (props) => {
         </p>
 
         <div className="product-price-wrapper">
-          {props.price?.sale 
+          {props.price.sale 
             ? <>
                 <span className="product-price--lg">
                   ${props.price.sale}
@@ -65,5 +65,20 @@ const Product = (props) => {
     </article>
   )
 };
+
+Product.propTypes = {
+  "id": PropTypes.number.isRequired,
+  "category": PropTypes.string.isRequired,
+  "title": PropTypes.string.isRequired,
+  "description": PropTypes.string.isRequired,
+  "price": PropTypes.exact({
+    "original": PropTypes.string.isRequired,
+    "sale": PropTypes.string.isRequired
+  }), 
+  "image": PropTypes.exact({
+    "desktop": PropTypes.string.isRequired,
+    "mobile": PropTypes.string.isRequired
+  }), 
+}
 
 export default Product;
