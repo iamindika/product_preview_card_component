@@ -23,8 +23,10 @@ body {
 
 .product-list-title {
   margin: 0;
-  font-size: 40px;
+  font-size: 35px;
+  color: var(--dark-blue);
   text-align: center;
+  text-decoration: underline;
 }
 
 .product-category {
