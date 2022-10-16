@@ -24,12 +24,12 @@ const Product = (props) => {
       />
 
       <div className="product-info container">
-        <h3 className="product-category">
+        <h2 className="product-category">
           {props.category}
-        </h3>
-        <h4 className="product-title">
+        </h2>
+        <h3 className="product-title">
           {props.title}
-        </h4>
+        </h3>
         <p className="product-description">
           {props.description}
         </p>
