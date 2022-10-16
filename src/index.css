@@ -65,6 +65,14 @@ body {
   color: var(--white);
 }
 
+.footer {
+  text-align: center;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: goldenrod;
+}
 .container {
   width: 295px;
   margin: 0 auto;
