@@ -23,7 +23,7 @@ const Product = (props) => {
         alt={props.title}
       />
 
-      <div className="product-info">
+      <div className="product-info container">
         <h3 className="product-category">
           {props.category}
         </h3>
